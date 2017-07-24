@@ -1,0 +1,25 @@
+{
+  "name": "transfont",
+  "version": "1.0.0",
+  "description": "将获得的ttf格式转成各种兼容文件",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp ttf2all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/leonkwok1992/transfont.git"
+  },
+  "keywords": [
+    "ttf2all"
+  ],
+  "author": "MrGrain",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-ttf2eot": "^1.1.2",
+    "gulp-ttf2woff": "^1.1.1",
+    "gulp-ttf-svg": "^1.0.1"
+  },
+  "dependencies": {}
+}
